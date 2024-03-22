@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.taskMakerContainer {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    background: #eee;
+    gap: 1rem;
+    max-width: 20rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.form .taskInput {
+    flex: 1;
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form button , #closingButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tasksContainer div {
+    display: flex;
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}
